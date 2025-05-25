@@ -4,10 +4,10 @@ public static void main (String args[]){
 Scanner sc=new Scanner(System.in);
 String name;
 int id;
-System.out.printf("enter Details");
+System.out.printf("enter Details\n");
 name=sc.nextLine();
 id=sc.nextInt();
-System.out.printf("show details");
+System.out.printf("show details\n");
 System.out.printf("%s\t %d\t",name,id);
 
 }
